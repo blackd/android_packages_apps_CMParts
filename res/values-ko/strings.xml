@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Generic -->
-    <string name="app_name">CyanogenMod 설정</string>
+    <string name="app_name">pffmod 설정</string>
 
     <!--  Update Notifications -->
     <string name="updatenotify_title">업데이트 알림</string>

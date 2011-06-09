@@ -2,7 +2,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
-    <string name="app_name">Impostazioni CyanogenMod</string>
+    <string name="app_name">Impostazioni pffmod</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Applicazioni</string>
@@ -619,7 +619,7 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Gestione autorizzazioni</string>
     <string name="perm_enable_management_summary">Attiva la gestione delle autorizzazioni</string>
-    <string name="perm_enable_warning_message">Attenzione!\nRevocare una o più autorizzazioni può causare il malfunzionamento dell\'applicazione. Se un\'applicazione, alla quale sono state revocate delle autorizzazioni, viene interrotta forzatamente è consigliabile concedere le dovute autorizzazioni o non utilizzare l\'applicazione.\nNon inviare segnalazioni di errori a Cyanogenmod se un\'applicazione alla quale sono state revocate delle autorizzazioni non funziona correttamente!</string>
+    <string name="perm_enable_warning_message">Attenzione!\nRevocare una o più autorizzazioni può causare il malfunzionamento dell\'applicazione. Se un\'applicazione, alla quale sono state revocate delle autorizzazioni, viene interrotta forzatamente è consigliabile concedere le dovute autorizzazioni o non utilizzare l\'applicazione.\nNon inviare segnalazioni di errori a pffmod se un\'applicazione alla quale sono state revocate delle autorizzazioni non funziona correttamente!</string>
     <string name="perm_enable_warning_title">Sei sicuro?</string>
 
 </resources>

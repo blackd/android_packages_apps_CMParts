@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Generic -->
-    <string name="app_name">CyanogenMod設定</string>
+    <string name="app_name">pffmod設定</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">アプリケーション</string>
@@ -622,7 +622,7 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">権限管理</string>
     <string name="perm_enable_management_summary">アプリケーションの権限管理を有効にする</string>
-    <string name="perm_enable_warning_message">警告!\n権限を取り消すと、ほとんどの場合アプリケーションが不調になる原因になります。権限を取り消したアプリケーションが強制終了した場合、必要な権限を与えるかアプリケーションの使用をやめてください。\nCyanogenmodにはバグリポートを送らないでください。権限を取消したアプリケーションは期待通りには動きません!</string>
+    <string name="perm_enable_warning_message">警告!\n権限を取り消すと、ほとんどの場合アプリケーションが不調になる原因になります。権限を取り消したアプリケーションが強制終了した場合、必要な権限を与えるかアプリケーションの使用をやめてください。\npffmodにはバグリポートを送らないでください。権限を取消したアプリケーションは期待通りには動きません!</string>
     <string name="perm_enable_warning_title">了解しましたか?</string>
 
 </resources>

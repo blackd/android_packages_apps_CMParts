@@ -2,7 +2,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
-    <string name="app_name">CyanogenMod 設定</string>
+    <string name="app_name">pffmod 設定</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">應用程式</string>
@@ -216,7 +216,7 @@
     <string name="pref_lockscreen_custom_app_toggle_summary">在滑桿模式中以額外的滑桿，或在撥輪模式中以額外的撥孔，來啟動自訂應用程式。</string>
     <string name="pref_lockscreen_custom_app_activity_title">自訂應用程式</string>
     <string name="pref_lockscreen_custom_icon_style_title">使用簡訊圖示</string>
-    <string name="pref_lockscreen_custom_icon_style_summary">以簡訊圖示代替 CyanogenMod 圖示來啟動自訂應用程式</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">以簡訊圖示代替 pffmod 圖示來啟動自訂應用程式</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">拉下解鎖</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">向下拉動撥輪來解鎖，向右撥動來啟動自訂應用程式。</string>
     <string name="pref_lockscreen_rotary_hide_arrows_title">隱藏撥輪箭頭</string>
@@ -511,7 +511,7 @@
     <string name="quiet_hours_dim_off">LED 將會如常發光</string>
 
     <string name="cmstats_title">匿名資料統計</string>
-    <string name="cmstats_summary">參與志願性的匿名資料統計來協助 CyanogenMod 的改進</string>
+    <string name="cmstats_summary">參與志願性的匿名資料統計來協助 pffmod 的改進</string>
 
     <string name="user_defined_key1">快速鍵 1</string>
     <string name="user_defined_key2">快速鍵 2</string>
@@ -619,7 +619,7 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">權限管理</string>
     <string name="perm_enable_management_summary">啟用應用程式權限管理</string>
-    <string name="perm_enable_warning_message">警告！\n大多數權限若被撤消的話就很可能會導致應用程式無法運作。如有撤消了權限的應用程式強制關閉，請授予其要求的權限，或停止使用該應用程式。\n如撤消了權限的應用程式沒有預期地運作，敬請不要回報相關錯誤至 CyanogenMod！</string>
+    <string name="perm_enable_warning_message">警告！\n大多數權限若被撤消的話就很可能會導致應用程式無法運作。如有撤消了權限的應用程式強制關閉，請授予其要求的權限，或停止使用該應用程式。\n如撤消了權限的應用程式沒有預期地運作，敬請不要回報相關錯誤至 pffmod！</string>
     <string name="perm_enable_warning_title">您確定嗎？</string>
 
 </resources>

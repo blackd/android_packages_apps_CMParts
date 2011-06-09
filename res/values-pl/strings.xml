@@ -2,7 +2,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
-    <string name="app_name">Ustawienia CyanogenMod</string>
+    <string name="app_name">Ustawienia pffmod</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Aplikacje</string>
@@ -216,7 +216,7 @@
     <string name="pref_lockscreen_custom_app_toggle_summary">Pokazuje dodatkowy suwak w przypadku stylu suwaka lub ikonę w przypadku stylu obrotowego</string>
     <string name="pref_lockscreen_custom_app_activity_title">Własna aplikacja</string>
     <string name="pref_lockscreen_custom_icon_style_title">Ikona wiadomości dla własnej aplikacji</string>
-    <string name="pref_lockscreen_custom_icon_style_summary">Używa ikony wiadomości zamiast ikony CyanogenMOD</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Używa ikony wiadomości zamiast ikony pffmod</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Przeciągnij w dół, by odblokować</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">Przeciągnięcie w dół odblokowuje ekran. Przeciągnięcie w prawo uruchamia wybraną aplikację</string>
     <string name="pref_lockscreen_rotary_hide_arrows_title">Ukryj strzałki</string>
@@ -511,7 +511,7 @@
     <string name="quiet_hours_dim_off">Dioda będzie świecić z pełną jasnością</string>
 
     <string name="cmstats_title">Anonimowe statystyki</string>
-    <string name="cmstats_summary">Pomóż sprawić, by CyanogenMOD był lepszy, pozwalając na wysyłanie anonimowych informacji</string>
+    <string name="cmstats_summary">Pomóż sprawić, by pffmod był lepszy, pozwalając na wysyłanie anonimowych informacji</string>
 
     <string name="user_defined_key1">Przycisk użytkownika 1</string>
     <string name="user_defined_key2">Przycisk użytkownika 2</string>

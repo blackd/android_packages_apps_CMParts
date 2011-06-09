@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Generic -->
-    <string name="app_name">CyanogenMod-inställningar</string>
+    <string name="app_name">pffmod-inställningar</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Applikation</string>
@@ -604,7 +604,7 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Aktivera management</string>
     <string name="perm_enable_management_summary">Möjliggör behörighets management</string>
-    <string name="perm_enable_warning_message">Varning! Återkallande av de flesta behörigheter kommer sannolikt leda program inte fungerar. Om ett program med återkallad behörighet tvångs-avslutar,vänligen ge de förväntade tillstånd eller använd inte programmet, Vänligen skicka INTE felrapporter till Cyanogenmod om ett program med återkallat tillstånd inte fungerar som förväntat!</string>
+    <string name="perm_enable_warning_message">Varning! Återkallande av de flesta behörigheter kommer sannolikt leda program inte fungerar. Om ett program med återkallad behörighet tvångs-avslutar,vänligen ge de förväntade tillstånd eller använd inte programmet, Vänligen skicka INTE felrapporter till pffmod om ett program med återkallat tillstånd inte fungerar som förväntat!</string>
     <string name="perm_enable_warning_title">Är du säker?</string>
 
 </resources>

@@ -2,7 +2,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
-    <string name="app_name">CyanogenMod settings</string>
+    <string name="app_name">pffmod settings</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Application</string>
@@ -620,7 +620,7 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Permission management</string>
     <string name="perm_enable_management_summary">Enable application permissions management</string>
-    <string name="perm_enable_warning_message">Warning!\nRevoking most permissions will most likely cause applications to malfunction. If an application with revoked permissions force-closes please grant the expected permissions or don\'t use the application.\nPlease DO NOT send bug reports to Cyanogenmod if an application with revoked permissions is not working as expected!</string>
+    <string name="perm_enable_warning_message">Warning!\nRevoking most permissions will most likely cause applications to malfunction. If an application with revoked permissions force-closes please grant the expected permissions or don\'t use the application.\nPlease DO NOT send bug reports to pffmod if an application with revoked permissions is not working as expected!</string>
     <string name="perm_enable_warning_title">Are you sure?</string>
 
 </resources>

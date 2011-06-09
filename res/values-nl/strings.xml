@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Generic -->
-    <string name="app_name">CyanogenMod</string>
+    <string name="app_name">pffmod</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Applicatie</string>
@@ -506,7 +506,7 @@
     <string name="quiet_hours_dim_off">LED op volledige helderheid</string>
 
     <string name="cmstats_title">Anonieme statistieken</string>
-    <string name="cmstats_summary">Help met het verbeteren van CyanogenMod door het versturen van anonieme statistiek rapporten</string>
+    <string name="cmstats_summary">Help met het verbeteren van pffmod door het versturen van anonieme statistiek rapporten</string>
 
     <string name="user_defined_key1">Sneltoets 1</string>
     <string name="user_defined_key2">Sneltoets 2</string>
@@ -609,6 +609,6 @@
 	<!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Management inschakelen</string>
     <string name="perm_enable_management_summary">Machtigingen management inschakelen</string>
-    <string name="perm_enable_warning_message">Waarschuwing!\nDeze optie kan er voor zorgen dat applicaties niet juist reageren. \nBij fouten, geen contact opnemen met het CyanogenMod team!</string>
+    <string name="perm_enable_warning_message">Waarschuwing!\nDeze optie kan er voor zorgen dat applicaties niet juist reageren. \nBij fouten, geen contact opnemen met het pffmod team!</string>
     <string name="perm_enable_warning_title">Weet je het zeker?</string>
 </resources>

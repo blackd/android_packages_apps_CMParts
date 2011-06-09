@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Generic -->
-    <string name="app_name">Ajustes CyanogenMod</string>
+    <string name="app_name">Ajustes pffmod</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Aplicaciones</string>

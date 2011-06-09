@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Generic -->
-    <string name="app_name">Paramètres CyanogenMod</string>
+    <string name="app_name">Paramètres pffmod</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Applications</string>
@@ -384,7 +384,7 @@
     <string name="quiet_hours_dim_off">La LED éclairera avec le maximum de puissance</string>
 
     <string name="cmstats_title">Statistiques anonymes</string>
-    <string name="cmstats_summary">Aidez CyanogenMod en participant à l\'envoi de statistiques anonymes</string>
+    <string name="cmstats_summary">Aidez pffmod en participant à l\'envoi de statistiques anonymes</string>
 
     <string name="user_defined_key1">Touche rapide 1</string>
     <string name="user_defined_key2">Touche rapide 2</string>

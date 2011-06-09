@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
-    <string name="app_name">CyanogenMod</string>
+    <string name="app_name">pffmod</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Anwendungen</string>
@@ -513,7 +513,7 @@
     <string name="quiet_hours_dim_off">LED behält volle Helligkeit</string>
 
     <string name="cmstats_title">Anonyme Statistiken</string>
-    <string name="cmstats_summary">Helfe CyanogenMod zu verbessern durch das anonyme Berichten von Statistiken über dein Gerät</string>
+    <string name="cmstats_summary">Helfe pffmod zu verbessern durch das anonyme Berichten von Statistiken über dein Gerät</string>
 
     <string name="user_defined_key1">Schnelltaste 1</string>
     <string name="user_defined_key2">Schnelltaste 2</string>
@@ -621,6 +621,6 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Berechtigungsverwaltung</string>
     <string name="perm_enable_management_summary">Berechtigungsverwaltung für Anwendungen aktivieren</string>
-    <string name="perm_enable_warning_message">Warnung!\nDas Entziehen von Berechtigungen wird in den meisten Anwendungen Fehler verursachen. Wenn eine Anwendung mit entzogenen Berechtigungen abstürzt, müssen die benötigten Berechtigungen gestattet werden.\nBitte KEINE Bugreports an CyanogenMod senden, wenn eine Anwendung mit entzogenen Berechtigungen nicht wie erwartet funktioniert!</string>
+    <string name="perm_enable_warning_message">Warnung!\nDas Entziehen von Berechtigungen wird in den meisten Anwendungen Fehler verursachen. Wenn eine Anwendung mit entzogenen Berechtigungen abstürzt, müssen die benötigten Berechtigungen gestattet werden.\nBitte KEINE Bugreports an pffmod senden, wenn eine Anwendung mit entzogenen Berechtigungen nicht wie erwartet funktioniert!</string>
     <string name="perm_enable_warning_title">Sicher?</string>
 </resources>

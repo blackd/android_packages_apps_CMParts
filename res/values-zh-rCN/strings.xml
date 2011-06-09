@@ -449,7 +449,7 @@
     <string name="quiet_hours_dim_off">LED 将使用正常亮度</string>
 
     <string name="cmstats_title">匿名统计数据</string>
-    <string name="cmstats_summary">发送您的匿名使用统计数据以帮助我们改善 CyanogenMod</string>
+    <string name="cmstats_summary">发送您的匿名使用统计数据以帮助我们改善 pffmod</string>
 
     <string name="user_defined_key1">快捷键 1</string>
     <string name="user_defined_key2">快捷键 2</string>
@@ -552,7 +552,7 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">权限管理</string>
     <string name="perm_enable_management_summary">开启应用到权限管理功能</string>
-    <string name="perm_enable_warning_message">警告!\n撤销大多数权限将有可能导致应用程序出现故障。如果具有撤销权限强制关闭应用程序，请给予预期的权限或不使用该应用程序。请不要发送错误报告给Cyanogenmod如果具有撤销权限的应用程序不按预期工作！</string>
+    <string name="perm_enable_warning_message">警告!\n撤销大多数权限将有可能导致应用程序出现故障。如果具有撤销权限强制关闭应用程序，请给予预期的权限或不使用该应用程序。请不要发送错误报告给pffmod如果具有撤销权限的应用程序不按预期工作！</string>
     <string name="perm_enable_warning_title">请确认?</string>
 
 </resources>

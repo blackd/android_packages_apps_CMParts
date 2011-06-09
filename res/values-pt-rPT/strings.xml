@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Generic -->
-    <string name="app_name">Configurações CyanogenMod</string>
+    <string name="app_name">Configurações pffmod</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Aplicações</string>
@@ -27,7 +27,7 @@
     <string name="sound_settings_summary_head">Volume do som, foco do áudio, horas de silêncio</string>
     <string name="system_settings_title_head">Sistema</string>
     <string name="system_settings_title_subhead">Definições do sistema</string>
-    <string name="system_settings_summary_head">Changelog da CyanogenMod, estatisticas, notificações de actualização</string>
+    <string name="system_settings_summary_head">Changelog da pffmod, estatisticas, notificações de actualização</string>
 
     <!--  Update Notifications -->
     <string name="updatenotify_title">Notificações de actualização</string>
@@ -436,7 +436,7 @@
     <string name="quiet_hours_dim_on">LED será escurecido se possível</string>
     <string name="quiet_hours_dim_off">LED estará com brilho total</string>
     <string name="cmstats_title">Estatísticas anónimas</string>
-    <string name="cmstats_summary">Ajude a melhorar a CyanogenMod fornecendo anónimamente dados estatísticos</string>
+    <string name="cmstats_summary">Ajude a melhorar a pffmod fornecendo anónimamente dados estatísticos</string>
     <string name="user_defined_key1">Tecla rápida 1</string>
     <string name="user_defined_key2">Tecla rápida 2</string>
     <string name="user_defined_key3">Tecla rápida 3</string>

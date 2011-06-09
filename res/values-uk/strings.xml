@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Налаштування CyanogenMod</string>
+  <string name="app_name">Налаштування pffmod</string>
   <string name="application_settings_title_head">Програми</string>
   <string name="application_settings_title_subhead">Налаштування програм</string>
   <string name="application_settings_summary_head">Переміщення програм, місце встановлення, обмеження спілкування</string>
@@ -511,6 +511,6 @@
   <string name="cpu_set_on_boot_summary">Установлення налаштувань процесора під час завантаження</string>
   <string name="perm_enable_management">Керування дозволами</string>
   <string name="perm_enable_management_summary">Увімкнення керування дозволами програм</string>
-  <string name="perm_enable_warning_message">Увага!\nШвидше за все, скасування більшої частини дозволів спричинить помилки у роботі програм. Якщо програма зі скасованими дозволами несподівано закривається, надайте скасовані дозволи або відмовтесь від її використання.\nБудь ласка, НЕ НАДСИЛАЙТЕ Cyanogenmod звіт про помилку, якщо програма зі скасованими дозволами не працює як очікувалося!</string>
+  <string name="perm_enable_warning_message">Увага!\nШвидше за все, скасування більшої частини дозволів спричинить помилки у роботі програм. Якщо програма зі скасованими дозволами несподівано закривається, надайте скасовані дозволи або відмовтесь від її використання.\nБудь ласка, НЕ НАДСИЛАЙТЕ pffmod звіт про помилку, якщо програма зі скасованими дозволами не працює як очікувалося!</string>
   <string name="perm_enable_warning_title">Ви впевнені?</string>
 </resources>
