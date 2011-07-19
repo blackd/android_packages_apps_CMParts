@@ -41,32 +41,7 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_status_bar_am_pm -->
 
-    <string-array name="entries_render_effect">
-        <item>無渲染效果</item>
-        <item>夜視模式（紅）</item>
-        <item>終端機（綠）</item>
-        <item>藍</item>
-        <item>琥珀</item>
-        <item>鮭紅</item>
-        <item>洋紅</item>
-        <item>校準的（N1）</item>
-        <item>校準的（N1）低紅</item>
-        <item>校準的（N1）冷酷</item>
-    </string-array>
-
     <!-- skipping untranslatable /resources:0/string-array:name=values_render_effect -->
-
-    <string-array name="render_entries">
-        <item>夜視模式（紅）</item>
-        <item>終端機（綠）</item>
-        <item>藍</item>
-        <item>琥珀</item>
-        <item>鮭紅</item>
-        <item>洋紅</item>
-        <item>校準的（N1）</item>
-        <item>校準的（N1）低紅</item>
-        <item>校準的（N1）冷酷</item>
-    </string-array>
 
     <!-- skipping untranslatable /resources:0/string-array:name=render_values -->
 
@@ -361,4 +336,13 @@
     </string-array>
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_unhide_button -->
+
+    <string-array name="entries_long_press_menu">
+        <item>無</item>
+        <item>軟體鍵盤</item>
+        <item>搜尋鍵</item>
+        <item>自訂應用程式</item>
+        <item>顯示／隱藏通知列</item>
+    </string-array>
+
 </resources>

@@ -87,6 +87,7 @@
 
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Accelerometer rotation</string>
+    <string name="pref_rotation_0_title">0 degrees</string>
     <string name="pref_rotation_90_title">90 degrees</string>
     <string name="pref_rotation_180_title">180 degrees</string>
     <string name="pref_rotation_270_title">270 degrees</string>
@@ -159,7 +160,7 @@
     <string name="pref_trackball_order_summary">Pulses the LED color in order</string>
     <string name="pref_trackball_reset_title">Reset</string>
     <string name="pref_trackball_reset_summary">Reset all colors and apps</string>
-    <string name="dialog_trackball_loading">Loading...</string>
+    <string name="dialog_trackball_loading">Loading\u2026</string>
     <string name="dialog_trackball_packagelist">Loading package list</string>
     <string name="trackball_category_dialog_text">Please enter a new category</string>
     <string name="trackball_category_list_title">Category</string>
@@ -180,6 +181,8 @@
     <string name="notification_battery_warning">This option has been proven to increase the amount of battery drain by ~3% per hour. If you notice an increase in drain during trackball lights pulsing then this option is why. Do not enable if you don\'t wish to incur the drain.</string>
 
     <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">Disable lockscreen on security</string>
+    <string name="pref_lockscreen_disable_on_security_summary">Disable the lockscreen if security screen lock (pattern, PIN, password) is enabled</string>
     <string name="pref_lockscreen_stylecfg_title">Style options</string>
     <string name="pref_lockscreen_stylecfg_summary">Configure the lockscreen style and the corresponding settings</string>
     <string name="pref_lockscreen_widgets_title">Widget options</string>
@@ -196,7 +199,7 @@
     <string name="pref_lockscreen_always_battery_title">Always display battery status</string>
     <string name="pref_lockscreen_always_battery_summary">Display battery status on the lockscreen at all times</string>
     <string name="pref_lockscreen_music_controls_title">Lockscreen music controls</string>
-    <string name="pref_lockscreen_music_controls_summary">Displays music controls on the lockscreen</string>
+    <string name="pref_lockscreen_music_controls_summary">Display music controls on the lockscreen</string>
     <string name="pref_lockscreen_now_playing_title">Display song name</string>
     <string name="pref_lockscreen_now_playing_summary">Display the name and artist of the song currently playing</string>
     <string name="pref_lockscreen_album_art_title">Display album art</string>
@@ -218,8 +221,11 @@
     <string name="pref_lockscreen_custom_app_toggle_title">Custom app starter</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Shows a second slider on sliding style, shows a custom app dimple on rotary style</string>
     <string name="pref_lockscreen_custom_app_activity_title">Custom application</string>
-    <string name="pref_lockscreen_custom_icon_style_title">Message icon for custom app</string>
-    <string name="pref_lockscreen_custom_icon_style_summary">Uses message icon instead of cm icon for custom app starter</string>
+    <string name="pref_lockscreen_custom_background_title">Choose background</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Choose background</string>
+    <string name="pref_lockscreen_custom_background_summary">Choose image or color as lockscreen background</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Use application icon for custom app</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Uses application icon instead of CM icon for custom app starter</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Drag down to unlock</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">Dragging down rotary wheel unlocks. Dragging right starts custom app</string>
     <string name="pref_lockscreen_rotary_hide_arrows_title">Hide rotary arrows</string>
@@ -245,13 +251,21 @@
     <string name="button_settings_title">Button settings</string>
     <string name="long_press_home_title">Long-press home settings</string>
     <string name="long_press_home_summary">Number of recent applications, etc</string>
-    <string name="input_search_key_title">Search key behaviour</string>
+
+    <string name="input_search_key_title">Search key behavior</string>
     <string name="input_search_key_summary">Define custom actions for search key and long-press search key</string>
     <string name="pref_input_custom_search_app_toggle_title">Search key app</string>
     <string name="pref_input_custom_search_app_toggle_summary">Starts a custom app when pressing the search key</string>
     <string name="pref_input_custom_search_app_activity_title">Custom application</string>
     <string name="pref_input_custom_long_search_app_toggle_title">Long-press search app</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">Starts a custom app when long-pressing the search key</string>
+
+    <!-- Long Press Menu -->
+    <string name="long_press_menu_title">Long-press menu settings</string>
+    <string name="long_press_menu_summary">Custom setting for long press menu</string>
+    <string name="pref_user_defined_long_press_menu_title">Select custom application</string>
+    <string name="pref_long_press_menu_title">Choose behavior</string>
+    <string name="pref_long_press_menu_summary">Customize long press menu</string>
 
     <!-- Long Press Home -->
     <string name="recent_apps_show_title">Show recent apps title</string>
@@ -367,19 +381,38 @@
     <string name="pref_render_effect_title">Render effect</string>
     <string name="pref_render_effect_summary">Change what colors are used to draw the screen (potential battery savings)</string>
 
+    <!-- UI Settings : Haptic feedback -->
+    <string name="expanded_haptic_feedback_title">Haptic Feedback</string>
+    <string name="expanded_haptic_feedback_summary">Enable/Disable haptic feedback.</string>
+
     <string name="widget_name">RenderFX Widget</string>
     <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Render Effect</string>
     <string name="notify_render_effect">Render effect on</string>
-        <string name="add_widget">Add widget</string>
+    <string name="add_widget">Add widget</string>
+    <string name="pref_render_effect_none">No render effect</string>
+    <string name="pref_render_effect_night">Night mode (3700K)</string>
+    <string name="pref_render_effect_green">Terminal (green)</string>
+    <string name="pref_render_effect_blue">Blue</string>
+    <string name="pref_render_effect_amber">Amber</string>
+    <string name="pref_render_effect_salmon">Salmon</string>
+    <string name="pref_render_effect_fuscia">Fuscia</string>
+    <string name="pref_render_effect_calibrated">Calibrated (N1)</string>
+    <string name="pref_render_effect_calibrated_red">Calibrated (N1) Low Red</string>
+    <string name="pref_render_effect_calibrated_cool">Calibrated (N1) Cool</string>
+    <string name="pref_render_effect_red">Red</string>
 
     <!--  Widget Types -->
-    <string name="night">Night</string>
-    <string name="terminal">Term</string>
-    <string name="blue">Blue</string>
-    <string name="amber">Amber</string>
-    <string name="salmon">Salmon</string>
-    <string name="fuscia">Fuscia</string>
+    <string name="widget_render_effect_night">Night</string>
+    <string name="widget_render_effect_terminal">Term</string>
+    <string name="widget_render_effect_blue">Blue</string>
+    <string name="widget_render_effect_amber">Amber</string>
+    <string name="widget_render_effect_salmon">Salmon</string>
+    <string name="widget_render_effect_fuscia">Fuscia</string>
+    <string name="widget_render_effect_red">Red</string>
+    <string name="widget_render_effect_calibrated">Cal</string>
+    <string name="widget_render_effect_calibrated_red">Cal Low Red</string>
+    <string name="widget_render_effect_calibrated_cool">Cal Cool</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Expanded View Widget</string>
@@ -426,7 +459,7 @@
     <string name="pref_ring_mode_title">Sound modes</string>
     <string name="pref_ring_mode_summary">Choose how the sound button changes modes</string>
     <string name="pref_flash_mode_title">Flash mode</string>
-    <string name="pref_flash_mode_summary">Choose High / Death Ray (Evo)</string>
+    <string name="pref_flash_mode_summary">Choose High / Death Ray</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automatic backlight</string>
@@ -444,7 +477,7 @@
     <string name="light_levels_enabled_title">Use custom</string>
     <string name="light_levels_dim_title">Screen dim level</string>
     <string name="light_levels_dim_summary">Brightness used to dim the screen</string>
-    <string name="light_levels_editor_title">Edit other levels...</string>
+    <string name="light_levels_editor_title">Edit other levels\u2026</string>
     <string name="light_decrease_enabled_title">Allow light decrease</string>
     <string name="light_decrease_enabled_summary">Enable to allow lights to decrease. Use hysteresis to reduce flicker</string>
     <string name="light_decrease_hysteresis_title">Decrease hysteresis</string>
@@ -476,7 +509,7 @@
     <string name="sound_volume_control_silent_title">Silent state</string>
     <string name="sound_volume_control_silent_summary">Add a state for complete silence to volume control</string>
     <string name="sound_vibrate_in_call_title">Vibrate during calls</string>
-    <string name="sound_vibrate_in_call_summary_off">Notifications will not vibrate during while in a call</string>
+    <string name="sound_vibrate_in_call_summary_off">Notifications will not vibrate during a call</string>
     <string name="sound_vibrate_in_call_summary_on">Notifications will vibrate normally</string>
     <string name="sound_to_speaker_title">Always play on speaker</string>
     <string name="sound_notifications_title">Notifications</string>
@@ -485,7 +518,7 @@
     <string name="sound_note_title">Note</string>
     <string name="sound_note_summary">The settings below apply only when headphones are used.</string>
     <string name="sound_attenuation_title">Attenuation of set volume</string>
-    <string name="sound_limitvol_title">Volume if music playing</string>
+    <string name="sound_limitvol_title">Volume if music is playing</string>
     <string name="sound_notifications_attenuation_dialog">Notification attenuation</string>
     <string name="sound_rings_attenuation_dialog">Ring tone attenuation</string>
     <string name="sound_alarms_attenuation_dialog">Alarm attenuation</string>
@@ -534,7 +567,7 @@
     <string name="gestures_error_missing_shortcut">You must pick an action for this gesture!</string>
     <string name="gestures_save_success">Gesture saved in %s</string>
     <string name="gestures_cancel_action">Cancel</string>
-    <string name="gestures_loading">Loading gestures...</string>
+    <string name="gestures_loading">Loading gestures\u2026</string>
     <string name="gestures_empty">No gestures</string>
     <string name="gestures_activity">Gestures</string>
     <string name="gestures_delete">Delete</string>
@@ -555,8 +588,8 @@
     <!-- Change Log strings -->
     <string name="changelog_title">View changelog</string>
     <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Loading changelog...</string>
-    <string name="changelog_error">Error loading changelog...</string>
+    <string name="changelog_loading">Loading changelog\u2026</string>
+    <string name="changelog_error">Error loading changelog\u2026</string>
     <string name="changelog_unknown">Unknown</string>
     <string name="changelog_version">Version</string>
 
@@ -624,5 +657,7 @@
     <string name="perm_enable_management_summary">Enable application permissions management</string>
     <string name="perm_enable_warning_message">Warning!\nRevoking most permissions will most likely cause applications to malfunction. If an application with revoked permissions force-closes please grant the expected permissions or don\'t use the application.\nPlease DO NOT send bug reports to pffmod if an application with revoked permissions is not working as expected!</string>
     <string name="perm_enable_warning_title">Are you sure?</string>
+
+
 
 </resources>

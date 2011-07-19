@@ -29,31 +29,6 @@
         <item>Нет (По умолчанию)</item>
     </string-array>
 
-    <string-array name="entries_render_effect">
-        <item>Без эффекта</item>
-        <item>Ночной (красный)</item>
-        <item>Терминал (зелёный)</item>
-        <item>Синий</item>
-        <item>Жёлтый</item>
-        <item>Оранжево-розовый</item>
-        <item>Розовый</item>
-        <item>Калиброванный (N1)</item>
-        <item>Калиброванный (N1) Красноватый</item>
-        <item>Калиброванный (N1) Холодный</item>
-    </string-array>
-
-    <string-array name="render_entries">
-        <item>Ночной (красный)</item>
-        <item>Терминал (зелёный)</item>
-        <item>Синий</item>
-        <item>Жёлтый</item>
-        <item>Оранжево-розовый</item>
-        <item>Розовый</item>
-        <item>Калиброванный (N1)</item>
-        <item>Калиброванный (N1) Красноватый</item>
-        <item>Калиброванный (N1) Холодный</item>
-    </string-array>
-
     <string-array name="entries_trackball_colors">
         <item>Зелёный</item>
         <item>Белый</item>
@@ -265,6 +240,20 @@
         <item>Камера</item>
         <item>Громче</item>
         <item>Тише</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>Нет</item>
+        <item>Вирт. клавиатура</item>
+        <item>Поиск</item>
+        <item>Пользоват. приложение</item>
+        <item>Перекл. строку состояния</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Настройки системы</item>
+        <item>Вкл.</item>
+        <item>Выкл.</item>
     </string-array>
 
 </resources>

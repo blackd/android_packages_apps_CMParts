@@ -288,14 +288,31 @@
     <string name="prefs_render_effect">Efeito de apresentação</string>
     <string name="notify_render_effect">Efeito de apresentação ligado</string>
     <string name="add_widget">Adicionar widget</string>
+    <string name="pref_render_effect_none">Sem efeito</string>
+    <string name="pref_render_effect_night">Modo noturno (3700K)</string>
+    <string name="pref_render_effect_green">Terminal (verde)</string>
+    <string name="pref_render_effect_blue">Azul</string>
+    <string name="pref_render_effect_amber">Amarelo</string>
+    <string name="pref_render_effect_salmon">Salmão</string>
+    <string name="pref_render_effect_fuscia">Rosa</string>
+    <string name="pref_render_effect_calibrated">Calibrado (N1)</string>
+    <string name="pref_render_effect_calibrated_red">Calibrado (N1) avermelhado</string>
+    <string name="pref_render_effect_calibrated_cool">Calibrado (N1) frio</string>
+    <string name="pref_render_effect_red">Vermelho</string>
+
 
     <!-- Widget Types -->
-    <string name="night">Noite</string>
-    <string name="terminal">Term</string>
-    <string name="blue">Azul</string>
-    <string name="amber">Âmbar</string>
-    <string name="salmon">Salmão</string>
-    <string name="fuscia">Fuscia</string>
+    <string name="widget_render_effect_night">Noite</string>
+    <string name="widget_render_effect_terminal">Term</string>
+    <string name="widget_render_effect_blue">Azul</string>
+    <string name="widget_render_effect_amber">Âmbar</string>
+    <string name="widget_render_effect_salmon">Salmão</string>
+    <string name="widget_render_effect_fuscia">Fuscia</string>
+    <string name="widget_render_effect_red">Vermelho</string>
+    <string name="widget_render_effect_calibrated">Cal</string>
+    <string name="widget_render_effect_calibrated_red">Cal avermelhado</string>
+    <string name="widget_render_effect_calibrated_cool">Cal frio</string>
+
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widget de Visualização Expandida</string>
@@ -329,7 +346,7 @@
     <string name="pref_ring_mode_title">Modos de som</string>
     <string name="pref_ring_mode_summary">Escolha como o botão de som alterna o modo</string>
     <string name="pref_flash_mode_title">Modo de Flash</string>
-    <string name="pref_flash_mode_summary">Escolha Alto / Raio da Morte (Evo)</string>
+    <string name="pref_flash_mode_summary">Escolha Alto / Raio da Morte</string>
 
 
     <!-- Performance : Lock home memory -->
@@ -606,4 +623,16 @@
     <string name="gestures_draw_label">Gesto:</string>
     <string name="gestures_draw_for_label">Gesto para \"%s\":</string>
     <string name="gestures_run_in_background">Executar em segundo plano</string>
+    <string name="rotation_category_title">Rotação com acelerômetro</string>
+    <string name="pref_rotation_90_title">90 graus</string>
+    <string name="pref_rotation_180_title">180 graus</string>
+    <string name="pref_rotation_270_title">270 graus</string>
+    <string name="pref_rotation_0_title">0 grau</string>
+    <string name="long_press_menu_title">Configurações de pressionar continuamente o menu</string>
+    <string name="long_press_menu_summary">Personalizar as configurações para pressionar continuamente o menu</string>
+    <string name="pref_user_defined_long_press_menu_title">Selecionar aplicação personalizada</string>
+    <string name="pref_long_press_menu_title">Selecionar o comportamento</string>
+    <string name="pref_long_press_menu_summary">Personalizar pressionar continuamente o menu</string>
+    <string name="expanded_haptic_feedback_title">Vibração</string>
+    <string name="expanded_haptic_feedback_summary">Habilitar/Desabilitar vibração</string>
 </resources>

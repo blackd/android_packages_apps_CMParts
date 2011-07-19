@@ -43,14 +43,21 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
     private PreferenceScreen mBacklightScreen;
 
     /* Other */
+    private static final String ROTATION_0_PREF = "pref_rotation_0";
     private static final String ROTATION_90_PREF = "pref_rotation_90";
     private static final String ROTATION_180_PREF = "pref_rotation_180";
     private static final String ROTATION_270_PREF = "pref_rotation_270";
+
+    private static final int ROTATION_0_MODE = 8;
+    private static final int ROTATION_90_MODE = 1;
+    private static final int ROTATION_180_MODE = 2;
+    private static final int ROTATION_270_MODE = 4;
 
     private CheckBoxPreference mElectronBeamAnimationOn;
 
     private CheckBoxPreference mElectronBeamAnimationOff;
 
+    private CheckBoxPreference mRotation0Pref;
     private CheckBoxPreference mRotation90Pref;
     private CheckBoxPreference mRotation180Pref;
     private CheckBoxPreference mRotation270Pref;
@@ -91,14 +98,17 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
         }
 
         /* Rotation */
+        mRotation0Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_0_PREF);
         mRotation90Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_90_PREF);
         mRotation180Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_180_PREF);
         mRotation270Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_270_PREF);
         int mode = Settings.System.getInt(getContentResolver(),
-                        Settings.System.ACCELEROMETER_ROTATION_MODE, 5);
-        mRotation90Pref.setChecked((mode & 1) != 0);
-        mRotation180Pref.setChecked((mode & 2) != 0);
-        mRotation270Pref.setChecked((mode & 4) != 0);
+                        Settings.System.ACCELEROMETER_ROTATION_MODE,
+                        ROTATION_0_MODE|ROTATION_90_MODE|ROTATION_270_MODE);
+        mRotation0Pref.setChecked((mode & ROTATION_0_MODE) != 0);
+        mRotation90Pref.setChecked((mode & ROTATION_90_MODE) != 0);
+        mRotation180Pref.setChecked((mode & ROTATION_180_MODE) != 0);
+        mRotation270Pref.setChecked((mode & ROTATION_270_MODE) != 0);
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -120,13 +130,19 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
         }
 
-        if (preference == mRotation90Pref ||
+        if (preference == mRotation0Pref ||
+            preference == mRotation90Pref ||
             preference == mRotation180Pref ||
             preference == mRotation270Pref) {
             int mode = 0;
-            if (mRotation90Pref.isChecked()) mode |= 1;
-            if (mRotation180Pref.isChecked()) mode |= 2;
-            if (mRotation270Pref.isChecked()) mode |= 4;
+            if (mRotation0Pref.isChecked()) mode |= ROTATION_0_MODE;
+            if (mRotation90Pref.isChecked()) mode |= ROTATION_90_MODE;
+            if (mRotation180Pref.isChecked()) mode |= ROTATION_180_MODE;
+            if (mRotation270Pref.isChecked()) mode |= ROTATION_270_MODE;
+            if (mode == 0) {
+                mode |= ROTATION_0_MODE;
+                mRotation0Pref.setChecked(true);
+            }
             Settings.System.putInt(getContentResolver(),
                      Settings.System.ACCELEROMETER_ROTATION_MODE, mode);
         }
