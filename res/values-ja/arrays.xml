@@ -23,25 +23,22 @@
         <item>外部</item>
     </string-array>
 
-    <string-array name="entries_trackball_colors">
-        <item>緑</item>
-        <item>白</item>
-        <item>赤</item>
-        <item>青</item>
-        <item>黄</item>
-        <item>シアン</item>
-        <item>マゼンタ</item>
-        <item>ピンク</item>
-        <item>オレンジ</item>
-        <item>ライトブルー</item>
-        <item>ランダム</item>
-        <item>なし</item>
+    <string-array name="entries_status_bar_am_pm">
+        <item>ノーマル</item>
+        <item>スモール</item>
+        <item>なし (デフォルト)</item>
     </string-array>
 
-    <string-array name="entries_dual_led_colors">
-        <item>緑</item>
-        <item>アンバー</item>
-        <item>なし</item>
+    <string-array name="haptic_feedback_entries">
+        <item>グローバル設定</item>
+        <item>オン</item>
+        <item>オフ</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>単色</item>
+        <item>カスタム画像</item>
+        <item>デフォルトの壁紙</item>
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
@@ -155,12 +152,14 @@
         <item>ロータリー</item>
         <item>ロータリー改</item>
         <item>レンズ</item>
+        <item>リング</item>
     </string-array>
 
     <string-array name="pref_in_call_style_entries">
         <item>スライディングタブ</item>
         <item>ロータリー</item>
         <item>ロータリー改</item>
+        <item>リング</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
@@ -201,15 +200,6 @@
     <string-array name="entries_screentimeout_widget">
         <item>15秒/1分/5分</item>
         <item>30秒/2分/5分</item>
-    </string-array>
-
-    <string-array name="entries_ring_widget">
-        <item>音と振動/振動</item>
-        <item>音/振動</item>
-        <item>音/サイレント</item>
-        <item>音と振動/振動/サイレント</item>
-        <item>音/振動/サイレント</item>
-        <item>音と振動/音/振動/サイレント</item>
     </string-array>
 
     <string-array name="entries_flash_widget">

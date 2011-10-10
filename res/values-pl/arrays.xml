@@ -29,21 +29,6 @@
         <item>Brak (Domyślnie)</item>
     </string-array>
 
-    <string-array name="entries_trackball_colors">
-        <item>Zielony</item>
-        <item>Biały</item>
-        <item>Czerwony</item>
-        <item>Niebieski</item>
-        <item>Żółty</item>
-        <item>Cyjan</item>
-        <item>Magenta</item>
-        <item>Różowy</item>
-        <item>Pomarańczowy</item>
-        <item>Błękitny</item>
-        <item>Losowy</item>
-        <item>Brak</item>
-    </string-array>
-
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (Szybko)</item>
         <item>3</item>
@@ -144,15 +129,6 @@
         <item>Głośność muzyki (domyślnie)</item>
     </string-array>
 
-    <string-array name="entries_ring_widget">
-        <item>Dźwięk+Wibracje/Wibracje</item>
-        <item>Dźwięk/Wibracje</item>
-        <item>Dźwięk/Cichy</item>
-        <item>Dźwięk+Wib/Wib/Cichy</item>
-        <item>Dźwięk/Wibracje/Cichy</item>
-        <item>Dźwięl+Wib/Dźwięk/Wib/Cichy</item>
-    </string-array>
-
     <string-array name="entries_flash_widget">
         <item>Normalna</item>
         <item>Wysoka</item>
@@ -178,12 +154,14 @@
         <item>Obrotowy</item>
         <item>Odświeżony obrotowy</item>
         <item>Soczewka</item>
+        <item>Pierścień</item>
     </string-array>
 
     <string-array name="pref_in_call_style_entries">
         <item>Suwak</item>
         <item>Obrotowy</item>
         <item>Odświeżony obrotowy</item>
+        <item>Pierścień</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">

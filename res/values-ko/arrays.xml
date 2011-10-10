@@ -23,21 +23,6 @@
         <item>외부</item>
     </string-array>
 
-    <string-array name="entries_trackball_colors">
-        <item>녹색</item>
-        <item>하얀색</item>
-        <item>빨강색</item>
-        <item>파랑색</item>
-        <item>노랑색</item>
-        <item>파랑색</item>
-        <item>자주색</item>
-        <item>분홍색</item>
-        <item>주황색</item>
-        <item>옅은 파랑색</item>
-        <item>임의</item>
-        <item>없음</item>
-    </string-array>
-
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (빠름)</item>
         <item>3</item>
@@ -134,6 +119,7 @@
         <item>회전</item>
         <item>개정된 회전</item>
         <item>Lense</item>
+        <item>반지</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
@@ -183,5 +169,18 @@
         <item>음량 낮추기</item>
     </string-array>
 
+    <string-array name="haptic_feedback_entries">
+        <item>전역 설정</item>
+        <item>켜기</item>
+        <item>끄기</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>없음</item>
+        <item>소프트 키보드</item>
+        <item>검색 버튼</item>
+        <item>사용자 지정 어플리케이션</item>
+        <item>상태 표시줄 토글</item>
+    </string-array>
 
 </resources>

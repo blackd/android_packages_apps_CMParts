@@ -17,7 +17,6 @@
 
 <resources>
 
-
     <string-array name="entries_install_location">
         <item>Automatica</item>
         <item>Interna</item>
@@ -30,27 +29,20 @@
         <item>Non visualizzare(Default)</item>
     </string-array>
 
-    <string-array name="entries_trackball_colors">
-        <item>Verde</item>
-        <item>Bianco</item>
-        <item>Rosso</item>
-        <item>Blu</item>
-        <item>Giallo</item>
-        <item>Ciano</item>
-        <item>Magenta</item>
-        <item>Rosa</item>
-        <item>Arancione</item>
-        <item>Blu Chiaro</item>
-        <item>Random</item>
-        <item>Nessuno</item>
-    </string-array>
-
     <string-array name="pref_trackball_blink_rate_entries">
+        <item>Usa impostazioni app</item>
         <item>2 (Veloce)</item>
         <item>3</item>
         <item>4 (Media)</item>
         <item>5</item>
         <item>6 (Lenta)</item>
+    </string-array>
+
+    <string-array name="pref_trackball_force_mode_entries">
+        <item>Usa impostazioni app</item>
+        <item>Forza LED spento</item>
+        <item>Forza LED acceso per eventi</item>
+        <item>Forza LED acceso</item>
     </string-array>
  
     <string-array name="pref_lockscreen_delay_entries">
@@ -122,14 +114,6 @@
         <item>2G/Solo 3G/3G+2G</item>
     </string-array>
 
-    <string-array name="entries_ring_widget">
-        <item>Suono+Vibrazione/Vibrazione</item>
-        <item>Suono/Vibrazione</item>
-        <item>Suono/Silenzioso</item>
-        <item>Suono+Vib/Vib/Silenzioso</item>
-        <item>Suono/Vibrazione/Silenzioso</item>
-    </string-array>
-
     <string-array name="entries_flash_widget">
         <item>Normale</item>
         <item>Forte / Death Ray</item>
@@ -155,12 +139,26 @@
         <item>Rotante</item>
         <item>Rotante ridisegnato</item>
         <item>Lense</item>
+        <item>Anelli</item>
     </string-array>
 
     <string-array name="pref_in_call_style_entries">
         <item>Tab scorrevoli</item>
         <item>Rotante</item>
         <item>Rotante ridisegnato</item>
+        <item>Anelli</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Colore</item>
+        <item>Immagine personalizzata</item>
+        <item>Sfondo di default</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>Default</item>
+        <item>Nascosto</item>
+        <item>Al centro</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
@@ -168,6 +166,15 @@
         <item>Cuffie via cavo</item>
         <item>Cuffie via Bluetooth A2DP</item>
         <item>Entrambe</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 ore</item>
+        <item>6 ore</item>
+        <item>12 ore</item>
+        <item>1 giorno</item>
+        <item>3 giorni</item>
+        <item>1 settimana</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">

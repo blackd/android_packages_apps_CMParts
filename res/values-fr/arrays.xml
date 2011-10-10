@@ -22,33 +22,19 @@
         <item>Externe</item>
     </string-array>
 
-    <string-array name="entries_trackball_colors">
-        <item>Vert</item>
-        <item>Blanc</item>
-        <item>Rouge</item>
-        <item>Bleu</item>
-        <item>Jaune</item>
-        <item>Cyan</item>
-        <item>Magenta</item>
-        <item>Rose</item>
-        <item>Orange</item>
-        <item>Bleu ciel</item>
-        <item>Aléatoire</item>
-        <item>Aucune</item>
-    </string-array>
-
-    <string-array name="entries_dual_led_colors">
-        <item>Vert</item>
-        <item>Orange</item>
-        <item>Aucune</item>
-    </string-array>
-
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (Rapide)</item>
         <item>3</item>
         <item>4 (Moyen)</item>
         <item>5</item>
         <item>6 (Lent)</item>
+    </string-array>
+
+    <string-array name="pref_trackball_force_mode_entries">
+        <item>Paramètres application</item>
+        <item>Pas de LED</item>
+        <item>LED si évenements</item>
+        <item>LED active</item>
     </string-array>
 
     <string-array name="pref_lockscreen_delay_entries">
@@ -108,8 +94,37 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>Curseurs</item>
         <item>Rotatif</item>
-        <item>Rotary revamped</item>
+        <item>Rotatif revamped</item>
         <item>Lense</item>
+        <item>Anneau</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Couleur ou filtre</item>
+        <item>Image perso.</item>
+        <item>Par défaut</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>Par défaut</item>
+        <item>Invisible</item>
+        <item>Centré</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Désactivé</item>
+        <item>Casque / Ecouteurs</item>
+        <item>Sortie Bluetooth A2DP</item>
+        <item>Casque et Bluetooth</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 heures</item>
+        <item>6 heures</item>
+        <item>12 heures</item>
+        <item>1 jour</item>
+        <item>3 jours</item>
+        <item>1 semaine</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
@@ -164,6 +179,20 @@
         <item>Par défaut</item>
         <item>Marche</item>
         <item>Arrêt</item>
+    </string-array>
+
+    <string-array name="entries_ring_widget">
+        <item>Son+Vibreur/Vibreur</item>
+        <item>Son/Vibreur</item>
+        <item>Son/Silence</item>
+        <item>Son+Vib/Vib/Silence</item>
+        <item>Son/Vibreur/Silence</item>
+        <item>Son+Vib/Son/Vib/Silence</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normal</item>
+        <item>Puissant / Death Ray</item>
     </string-array>
 
 </resources>
